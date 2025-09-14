@@ -19,21 +19,22 @@ const Hero = () => {
       <div className="relative z-[1] text-center max-w-screen-md">
         <Badge className="rounded-full border-none">
           <Zap className="fill-current" />
-          Fullstack Web Developer
+          Desarrollador Fullstack
         </Badge>
         <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-bold !leading-[1.2] tracking-tight">
-          Building Scalable & Engaging Web Experiences
+          Construyendo aplicaciones web completas, modernas y escalables
         </h1>
         <p className="mt-6 text-[17px] md:text-lg">
-          Hey there! I&apos;m a John Doe, a Full Stack Developer who loves
-          building cool and scalable web experiences. From crafting beautiful
-          frontends to powering robust backends, I bring ideas to life with
-          clean code and great design. Let&apos;s create something amazing
-          together! 🚀
+          ¡Hola! Soy Matías Galli, Desarrollador Fullstack con experiencia en React, 
+          Next.js, Node.js y TypeScript. He trabajado en proyectos que van desde mapas 
+          interactivos para municipalidades hasta plataformas de reservas académicas. Combino
+           frontend atractivo con backend robusto, siempre cuidando performance, 
+          usabilidad y despliegue en la nube. Me motiva transformar ideas en productos 
+          digitales que realmente impacten.
         </p>
         <div className="mt-12 flex items-center justify-center gap-4">
           <Button size="lg" className="rounded-full text-base">
-            See What I Do <CircleArrowDown className="ml-2 !h-5.5 !w-5.5" />
+             Ve lo que he hecho<CircleArrowDown className="ml-2 !h-5.5 !w-5.5" />
           </Button>
         </div>
       </div>

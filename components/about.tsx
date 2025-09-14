@@ -15,29 +15,34 @@ const About = () => {
 
           {/* Content */}
           <div className="flex-1 md:text-left">
-            <Badge variant="secondary" className="mb-4">
-              About Me
-            </Badge>
+            {/* Logo arriba */}
+            <div className="mb-6 flex items-center gap-3">
+              <Badge variant="secondary">Sobre mí</Badge>
+            </div>
+
             <ProfileImage className="mt-3 mb-8 block md:hidden" />
             <h2 className="text-4xl font-bold mb-4 tracking-tight">
-              Passionate about creating impactful web experiences
+              Desarrollador Fullstack enfocado en crear experiencias web modernas
             </h2>
             <p className="text-muted-foreground mb-6 text-justify">
-              With over 5 years of experience in full-stack development, I
-              specialize in building scalable web applications using modern
-              technologies. My expertise includes React, Node.js, and cloud
-              architecture. I&apos;m passionate about creating elegant solutions
-              to complex problems and sharing knowledge with the developer
-              community.
+              Soy <strong>Matías Galli</strong>, Ingeniero en Tecnologías de la
+              Información y Desarrollador Fullstack. Trabajo con{" "}
+              <strong>React, Next.js, Node.js y TypeScript</strong>, integrando
+              frontend dinámico con backends robustos. He participado en
+              proyectos de <em>validación biométrica en tiempo real</em>,
+              <em> mapas interactivos para municipalidades</em> y{" "}
+              <em>plataformas de reservas académicas</em>. Me motiva crear
+              soluciones digitales que combinen{" "}
+              <strong>usabilidad, rendimiento y despliegues en la nube</strong>.
             </p>
             <div className="flex flex-wrap gap-4 justify-start">
               <Button className="rounded-full">
                 <GithubLogo />
-                View Github
+                Ver Github
               </Button>
               <Button variant="outline" className="rounded-full">
                 <Download />
-                Download CV
+                Descargar CV
               </Button>
             </div>
           </div>
@@ -53,8 +58,9 @@ const ProfileImage = ({
 }: HTMLAttributes<HTMLDivElement>) => (
   <div className={cn("mt-10 w-48 h-48 md:w-64 md:h-64", className)} {...props}>
     <div className="relative w-full h-full rounded-2xl overflow-hidden bg-accent">
-      <Image src="/placeholder.svg" alt="" className="object-cover" fill />
+      <Image src="/Logo.png" alt="Foto de perfil" className="object-cover" fill />
     </div>
   </div>
 );
+
 export default About;
