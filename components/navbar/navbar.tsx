@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { GithubLogo, XLogo } from "../icons";
+import { GithubLogo, LinkedinLogo } from "../icons";
 import { NavMenu } from "./nav-menu";
 import { NavigationSheet } from "./navigation-sheet";
 import Image from "next/image";
@@ -29,7 +29,7 @@ const Navbar = () => {
             className="hidden sm:inline-flex rounded-full shadow-none"
             size="icon"
           >
-            <XLogo />
+            <LinkedinLogo />
           </Button>
           <Button
             variant="outline"

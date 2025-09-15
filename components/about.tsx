@@ -36,9 +36,15 @@ const About = () => {
               <strong>usabilidad, rendimiento y despliegues en la nube</strong>.
             </p>
             <div className="flex flex-wrap gap-4 justify-start">
-              <Button className="rounded-full">
-                <GithubLogo />
-                Ver Github
+              <Button asChild className="rounded-full">
+                <a
+                  href="https://github.com/MatiasGalli"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GithubLogo />
+                  Ver Github
+                </a>
               </Button>
               <Button variant="outline" className="rounded-full">
                 <Download />

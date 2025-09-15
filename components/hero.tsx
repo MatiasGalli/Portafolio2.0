@@ -28,7 +28,7 @@ const Hero = () => {
           ¡Hola! Soy Matías Galli, Desarrollador Fullstack con experiencia en React, 
           Next.js, Node.js y TypeScript. He trabajado en proyectos que van desde mapas 
           interactivos para municipalidades hasta plataformas de reservas académicas. Combino
-           frontend atractivo con backend robusto, siempre cuidando performance, 
+          frontend atractivo con backend robusto, siempre cuidando performance, 
           usabilidad y despliegue en la nube. Me motiva transformar ideas en productos 
           digitales que realmente impacten.
         </p>

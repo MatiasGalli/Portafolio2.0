@@ -6,6 +6,7 @@ interface ExperienceItemProps {
   company: string;
   period: string;
   description: string;
+  achievement?: string;
   technologies: string[];
 }
 
@@ -14,6 +15,7 @@ const ExperienceItem = ({
   company,
   period,
   description,
+  achievement,
   technologies,
 }: ExperienceItemProps) => {
   return (
@@ -39,6 +41,9 @@ const ExperienceItem = ({
           </div>
         </div>
         <p className="text-muted-foreground">{description}</p>
+        {achievement && (
+            <p className="mt-2 italic text-sm text-primary">• {achievement}</p>
+          )}
         <div className="flex flex-wrap gap-2">
           {technologies.map((tech) => (
             <Badge key={tech} variant="secondary" className="rounded-full">
@@ -54,28 +59,44 @@ const ExperienceItem = ({
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "TechCorp Solutions",
-      period: "2021 - Present",
+      title: "Desarrollador de Fullstack",
+      company: "Facultad de Ciencias del Mar · UCN",
+      period: "Ago 2025 – Actualidad",
       description:
-        "Led the development of enterprise-scale web applications, mentored junior developers, and implemented best practices for code quality and performance optimization.",
-      technologies: ["React", "Node.js", "TypeScript", "AWS", "MongoDB"],
+        "Rol fullstack en el desarrollo de una plataforma de reservas de laboratorios y control de materiales. Apoyo en frontend con React/Next.js y desarrollo de APIs en Node.js + TypeScript.",
+      technologies: ["React", "Next.js", "Node.js", "TypeScript", "PostgreSQL"],
+      achievement:
+        "Plataforma de gestión para toda la facultad, con impacto en múltiples laboratorios.",
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Innovations Inc",
-      period: "2019 - 2021",
+      title: "Fundador & Consultor Tecnológico",
+      company: "Cutback · Agencia Digital",
+      period: "Jun 2025 – Actualidad",
       description:
-        "Developed and maintained multiple client projects, implemented responsive designs, and integrated third-party APIs for enhanced functionality.",
-      technologies: ["React", "Express.js", "PostgreSQL", "Docker", "Redis"],
+        "Encargado del área tecnológica en agencia de marketing digital para pymes. Desarrollo fullstack de la web en Next.js + TypeScript (deploy en Vercel/Cloudflare) y consultoría en seguridad y performance.",
+      technologies: ["Next.js", "TypeScript", "Vercel", "Cloudflare"],
+      achievement:
+        "Creación de agencia con 3 clientes activos, integrando soluciones tecnológicas y de negocio.",
     },
     {
-      title: "Frontend Developer",
-      company: "WebTech Studios",
-      period: "2018 - 2019",
+      title: "Desarrollador de Software",
+      company: "Solem S.A.",
+      period: "Ago 2024 – Dic 2024",
       description:
-        "Created responsive and interactive user interfaces, collaborated with designers, and optimized application performance.",
-      technologies: ["React", "JavaScript", "SASS", "Webpack", "Jest"],
+        "Desarrollo de backend escalable para sistema de validación biométrica con redes neuronales siamesas y soporte frontend en Next.js. Integración en tiempo real con precisión >98%.",
+      technologies: ["Node.js", "Flask", "Next.js", "Python", "Docker"],
+      achievement:
+        "Validación en tiempo real con precisión superior al 98%.",
+    },
+    {
+      title: "Desarrollador Web SIG",
+      company: "Municipalidad de La Serena",
+      period: "Ene 2024 – Mar 2024",
+      description:
+        "Automatización de procesos y desarrollo de APIs para la gestión de mapas interactivos en la web municipal. Reducción de tiempos de gestión en un 30%.",
+      technologies: ["JavaScript", "Leaflet", "Docker"],
+      achievement:
+        "Automatización que redujo tiempos en un 30% con mapas interactivos escalables.",
     },
   ];
 
@@ -84,10 +105,10 @@ const Experience = () => {
       <div className="max-w-screen-md mx-auto">
         <div className="text-center mb-12">
           <Badge variant="secondary" className="mb-4">
-            Experience
+            Experiencia
           </Badge>
           <h2 className="text-4xl sm:text-5xl font-bold tracking-tight">
-            Professional Journey
+            Camino Profesional
           </h2>
           <p className="text-muted-foreground mt-2 sm:mt-4 text-lg">
             A timeline of my professional growth and key achievements

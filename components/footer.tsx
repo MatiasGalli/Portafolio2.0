@@ -1,18 +1,18 @@
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
-import { BlueSkyLogo, DribbleLogo, GithubLogo, XLogo } from "./icons";
+import { GithubLogo, LinkedinLogo } from "./icons";
 
 const footerLinks = [
   {
-    title: "About",
+    title: "Sobre Mi",
     href: "#about",
   },
   {
-    title: "Experience",
+    title: "Experiencia",
     href: "#experience",
   },
   {
-    title: "Projects",
+    title: "Proyectos",
     href: "#projects",
   },
 ];
@@ -58,7 +58,7 @@ const Footer = () => {
         <div className="py-6 flex flex-col-reverse sm:flex-row items-center justify-between gap-x-2 gap-y-5 px-6 xl:px-0">
           {/* Copyright */}
           <span className="text-muted-foreground">
-            &copy; {new Date().getFullYear()} John Doe. All rights reserved.
+            &copy; {new Date().getFullYear()} Matias Galli Alonzo. Todos los derechos reservados.
           </span>
 
           <div className="flex items-center gap-5 text-muted-foreground">
@@ -66,13 +66,7 @@ const Footer = () => {
               <GithubLogo className="h-5 w-5" />
             </Link>
             <Link href="#" target="_blank">
-              <XLogo className="h-5 w-5" />
-            </Link>
-            <Link href="#" target="_blank">
-              <BlueSkyLogo className="h-5 w-5" />
-            </Link>
-            <Link href="#" target="_blank">
-              <DribbleLogo className="h-5 w-5" />
+              <LinkedinLogo className="h-5 w-5" />
             </Link>
           </div>
         </div>
