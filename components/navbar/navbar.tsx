@@ -3,10 +3,11 @@ import { GithubLogo, LinkedinLogo } from "../icons";
 import { NavMenu } from "./nav-menu";
 import { NavigationSheet } from "./navigation-sheet";
 import Image from "next/image";
+import { ThemeToggle } from "../theme-toggle";
 
 const Navbar = () => {
   return (
-    <nav className="fixed z-10 top-6 inset-x-4 h-14 bg-background border dark:border-slate-700/70 max-w-screen-md mx-auto rounded-full">
+    <nav className="fixed z-10 top-6 inset-x-4 h-14 bg-background border border-border max-w-screen-md mx-auto rounded-full">
       <div className="h-full flex items-center justify-between mx-auto px-3">
         
         {/* Logo */}
@@ -24,6 +25,7 @@ const Navbar = () => {
         <NavMenu className="hidden md:block" />
 
         <div className="flex items-center gap-2">
+          <ThemeToggle />
           <Button
             variant="outline"
             className="hidden sm:inline-flex rounded-full shadow-none"
