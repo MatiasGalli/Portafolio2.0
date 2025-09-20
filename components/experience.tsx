@@ -111,7 +111,7 @@ const Experience = () => {
             Camino Profesional
           </h2>
           <p className="text-muted-foreground mt-2 sm:mt-4 text-lg">
-            A timeline of my professional growth and key achievements
+            Una cronología de mi crecimiento profesional y logros clave
           </p>
         </div>
 

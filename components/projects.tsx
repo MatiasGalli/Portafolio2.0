@@ -86,7 +86,7 @@ const projects = [
     title: "Plataforma de Reservas y Control de Materiales",
     description:
       "Sistema fullstack para la Facultad de Ciencias del Mar (UCN), permitiendo reservas de laboratorios y gestión de insumos. Incluye frontend en React/Next.js y backend con Node.js + TypeScript.",
-    image: "/placeholder.svg",
+    image: "/Fcm.png",
     technologies: ["React", "Next.js", "Node.js", "TypeScript", "PostgreSQL"],
     liveUrl: "", // privado
     githubUrl: "", // privado
@@ -96,7 +96,7 @@ const projects = [
     title: "Sistema de Validación Biométrica",
     description:
       "Backend escalable para validación de cédulas chilenas mediante OCR y redes neuronales siamesas, logrando validación en tiempo real con precisión superior al 98%.",
-    image: "/placeholder.svg",
+    image: "/Biometria.png",
     technologies: ["Python", "Flask", "Torch", "OpenCV", "PostgreSQL"],
     liveUrl: "", // privado
     githubUrl: "", // privado
@@ -106,7 +106,7 @@ const projects = [
     title: "Cutback · Agencia Digital",
     description:
       "Desarrollo fullstack de la web corporativa de Cutback en Next.js + TypeScript con despliegue en Vercel y Cloudflare. Consultoría tecnológica para clientes pymes en performance y seguridad.",
-    image: "/placeholder.svg",
+    image: "/Cutback.png",
     technologies: ["Next.js", "TypeScript", "Vercel", "Cloudflare"],
     liveUrl: "https://www.cutback.cl/",
     githubUrl: "",
@@ -116,7 +116,7 @@ const projects = [
     title: "Mapas Interactivos SIG",
     description:
       "Desarrollo de mapas interactivos para la Municipalidad de La Serena con Leaflet y automatización de registros en la web municipal. Reducción de tiempos de gestión en un 30%.",
-    image: "/placeholder.svg",
+    image: "/Sig.png",
     technologies: ["JavaScript", "Leaflet", "Docker"],
     liveUrl: "https://mapas.laserena.cl/", // si tienes link
     githubUrl: "", // privado
