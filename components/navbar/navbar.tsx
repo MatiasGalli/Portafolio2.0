@@ -28,15 +28,29 @@ const Navbar = () => {
             variant="outline"
             className="hidden sm:inline-flex rounded-full shadow-none"
             size="icon"
+            asChild
           >
-            <LinkedinLogo />
+            <a
+              href="https://www.linkedin.com/in/matias-galli-alonzo/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LinkedinLogo />
+            </a>
           </Button>
           <Button
             variant="outline"
             className="rounded-full shadow-none"
             size="icon"
+            asChild
           >
-            <GithubLogo className="h-5 w-5" />
+            <a
+              href="https://github.com/MatiasGalli"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubLogo className="h-5 w-5" />
+            </a>
           </Button>
 
           {/* Mobile Menu */}
