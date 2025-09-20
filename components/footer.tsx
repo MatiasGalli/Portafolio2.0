@@ -62,10 +62,18 @@ const Footer = () => {
           </span>
 
           <div className="flex items-center gap-5 text-muted-foreground">
-            <Link href="#" target="_blank">
+            <Link
+              href="https://github.com/MatiasGalli"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <GithubLogo className="h-5 w-5" />
             </Link>
-            <Link href="#" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/matias-galli-alonzo/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <LinkedinLogo className="h-5 w-5" />
             </Link>
           </div>
