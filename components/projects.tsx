@@ -88,8 +88,6 @@ const projects = [
       "Sistema fullstack para la Facultad de Ciencias del Mar (UCN), permitiendo reservas de laboratorios y gestión de insumos. Incluye frontend en React/Next.js y backend con Node.js + TypeScript.",
     image: "/Fcm.png",
     technologies: ["React", "Next.js", "Node.js", "TypeScript", "PostgreSQL"],
-    liveUrl: "", // privado
-    githubUrl: "", // privado
     private: true,
   },
   {
@@ -98,8 +96,6 @@ const projects = [
       "Backend escalable para validación de cédulas chilenas mediante OCR y redes neuronales siamesas, logrando validación en tiempo real con precisión superior al 98%.",
     image: "/Biometria.png",
     technologies: ["Python", "Flask", "Torch", "OpenCV", "PostgreSQL"],
-    liveUrl: "", // privado
-    githubUrl: "", // privado
     private: true,
   },
   {
@@ -109,8 +105,6 @@ const projects = [
     image: "/Cutback.png",
     technologies: ["Next.js", "TypeScript", "Vercel", "Cloudflare"],
     liveUrl: "https://www.cutback.cl/",
-    githubUrl: "",
-    private: true,
   },
   {
     title: "Mapas Interactivos SIG",
@@ -118,9 +112,7 @@ const projects = [
       "Desarrollo de mapas interactivos para la Municipalidad de La Serena con Leaflet y automatización de registros en la web municipal. Reducción de tiempos de gestión en un 30%.",
     image: "/Sig.png",
     technologies: ["JavaScript", "Leaflet", "Docker"],
-    liveUrl: "https://mapas.laserena.cl/", // si tienes link
-    githubUrl: "", // privado
-    private: true,
+    liveUrl: "https://mapas.laserena.cl/",
   },
 ];
 
