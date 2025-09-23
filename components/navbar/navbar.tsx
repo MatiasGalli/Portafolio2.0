@@ -10,14 +10,19 @@ const Navbar = () => {
     <nav className="fixed z-10 top-6 inset-x-4 h-14 bg-background border border-border max-w-screen-md mx-auto rounded-full">
       <div className="h-full flex items-center justify-between mx-auto px-3">
         
-        {/* Logo */}
-        <div className="flex items-center">
+        {/* Logo con cambio según tema */}
+        <div className="flex items-center relative w-30 h-20">
           <Image
-            src="/logoSimple.png"
+            src="/logoSimpleNegro.png"
             alt="Matías Galli Logo"
-            width={80}
-            height={80}
-            className="rounded-full"
+            fill
+            className="object-contain dark:hidden"
+          />
+          <Image
+            src="/logoSimpleBlanco.png"
+            alt="Matías Galli Logo"
+            fill
+            className="object-contain hidden dark:block"
           />
         </div>
 

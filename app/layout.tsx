@@ -7,10 +7,11 @@ import Footer from "@/components/footer";
 const geistSans = Geist({
   subsets: ["latin"],
 });
+
 export const metadata: Metadata = {
   title: "Matías Galli - Desarrollador Fullstack",
   description:
-    "A beautiful portfolio template built with Shadcn UI, Tailwind CSS 4, and Next.js 15",
+    "Portafolio personal de Matías Galli, desarrollador Fullstack especializado en backend, APIs escalables y soluciones web modernas con Node.js, Python, Next.js y PostgreSQL.",
   icons: {
     icon: "/favicon.ico",
   },

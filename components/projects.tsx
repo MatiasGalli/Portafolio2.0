@@ -110,7 +110,7 @@ const projects = [
     technologies: ["Next.js", "TypeScript", "Vercel", "Cloudflare"],
     liveUrl: "https://www.cutback.cl/",
     githubUrl: "",
-    private: false,
+    private: true,
   },
   {
     title: "Mapas Interactivos SIG",
