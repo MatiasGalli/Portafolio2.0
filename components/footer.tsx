@@ -4,7 +4,7 @@ import { GithubLogo, LinkedinLogo } from "./icons";
 
 const footerLinks = [
   {
-    title: "Sobre Mi",
+    title: "Sobre mí",
     href: "#about",
   },
   {

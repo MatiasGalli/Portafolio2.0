@@ -46,9 +46,15 @@ const About = () => {
                   Ver Github
                 </a>
               </Button>
-              <Button variant="outline" className="rounded-full">
-                <Download />
-                Descargar CV
+              <Button variant="outline" className="rounded-full" asChild>
+                <a
+                  href="https://drive.google.com/file/d/1BBpXZSelDEeTp-CSuT6F7iI9A5HpiF4-/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Download />
+                  Descargar CV
+                </a>
               </Button>
             </div>
           </div>
@@ -64,7 +70,12 @@ const ProfileImage = ({
 }: HTMLAttributes<HTMLDivElement>) => (
   <div className={cn("mt-10 w-48 h-48 md:w-64 md:h-64", className)} {...props}>
     <div className="relative w-full h-full rounded-2xl overflow-hidden bg-accent">
-      <Image src="/Logo.png" alt="Foto de perfil" className="object-cover" fill />
+      <Image
+        src="/Logo.png"
+        alt="Logotipo personal de Matías Galli"
+        className="object-cover"
+        fill
+      />
     </div>
   </div>
 );

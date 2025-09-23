@@ -22,8 +22,11 @@ const Hero = () => {
           digitales que realmente impacten.
         </p>
         <div className="mt-12 flex items-center justify-center gap-4">
-          <Button size="lg" className="rounded-full text-base">
-             Ve lo que he hecho<CircleArrowDown className="ml-2 !h-5.5 !w-5.5" />
+          <Button size="lg" className="rounded-full text-base" asChild>
+            <a href="#projects">
+              Ve lo que he hecho
+              <CircleArrowDown className="ml-2 !h-5.5 !w-5.5" />
+            </a>
           </Button>
         </div>
       </div>
