@@ -61,7 +61,7 @@ const Experience = () => {
     {
       title: "Desarrollador de Fullstack",
       company: "Facultad de Ciencias del Mar · UCN",
-      period: "Ago 2024 – Actualidad",
+      period: "Ago 2025 – Actualidad",
       description:
         "Rol fullstack en el desarrollo de una plataforma de reservas de laboratorios y control de materiales. Apoyo en frontend con React/Next.js y desarrollo de APIs en Node.js + TypeScript.",
       technologies: ["React", "Next.js", "Node.js", "TypeScript", "PostgreSQL"],
@@ -71,7 +71,7 @@ const Experience = () => {
     {
       title: "Fundador & Consultor Tecnológico",
       company: "Cutback · Agencia Digital",
-      period: "Jun 2024 – Actualidad",
+      period: "Jun 2025 – Actualidad",
       description:
         "Encargado del área tecnológica en agencia de marketing digital para pymes. Desarrollo fullstack de la web en Next.js + TypeScript (deploy en Vercel/Cloudflare) y consultoría en seguridad y performance.",
       technologies: ["Next.js", "TypeScript", "Vercel", "Cloudflare"],
@@ -81,7 +81,7 @@ const Experience = () => {
     {
       title: "Desarrollador de Software",
       company: "Solem S.A.",
-      period: "Ago 2023 – Jul 2024",
+      period: "Ago 2024 – Ene 2025",
       description:
         "Desarrollo de backend escalable para sistema de validación biométrica con redes neuronales siamesas y soporte frontend en Next.js. Integración en tiempo real con precisión >98%.",
       technologies: ["Node.js", "Flask", "Next.js", "Python", "Docker"],
@@ -91,7 +91,7 @@ const Experience = () => {
     {
       title: "Desarrollador Web SIG",
       company: "Municipalidad de La Serena",
-      period: "Ene 2023 – Mar 2023",
+      period: "Ene 2024 – Mar 2024",
       description:
         "Automatización de procesos y desarrollo de APIs para la gestión de mapas interactivos en la web municipal. Reducción de tiempos de gestión en un 30%.",
       technologies: ["JavaScript", "Leaflet", "Docker"],
