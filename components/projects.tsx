@@ -22,7 +22,7 @@ const ProjectCard = ({
   liveUrl,
   githubUrl,
   private: isPrivate,
-  
+
 }: ProjectCardProps) => {
   return (
     <div className="group relative flex flex-col overflow-hidden rounded-xl border border-accent transition-all hover:border-primary/50">
@@ -82,6 +82,24 @@ const ProjectCard = ({
 };
 
 const projects = [
+  {
+    title: "AuditE – Plataforma de Diagnóstico Energético",
+    description:
+      "SaaS fullstack orientado al diagnóstico energético y la gestión de datos técnicos. Incluye backend en FastAPI con PostgreSQL y Docker, migraciones con Alembic, frontend en React y soporte de HTTPS local. Se configuró el entorno completo de desarrollo y automatización con Makefile.",
+    image: "/audite.png",
+    technologies: [
+      "FastAPI",
+      "Python",
+      "React",
+      "Docker",
+      "PostgreSQL",
+      "Alembic",
+      "Nginx",
+      "GitHub Webhooks"
+    ],
+    liveUrl: "https://www.audit-energia.com/",
+    private: true,
+  },
   {
     title: "Plataforma de Reservas y Control de Materiales",
     description:

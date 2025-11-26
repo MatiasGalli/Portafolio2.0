@@ -71,7 +71,7 @@ const ProfileImage = ({
   <div className={cn("mt-10 w-48 h-48 md:w-64 md:h-64", className)} {...props}>
     <div className="relative w-full h-full rounded-2xl overflow-hidden bg-accent">
       <Image
-        src="/Logo.png"
+        src="/Foto_perfil.png"
         alt="Logotipo personal de Matías Galli"
         className="object-cover"
         fill

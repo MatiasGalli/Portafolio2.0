@@ -42,8 +42,8 @@ const ExperienceItem = ({
         </div>
         <p className="text-muted-foreground">{description}</p>
         {achievement && (
-            <p className="mt-2 italic text-sm text-primary">• {achievement}</p>
-          )}
+          <p className="mt-2 italic text-sm text-primary">• {achievement}</p>
+        )}
         <div className="flex flex-wrap gap-2">
           {technologies.map((tech) => (
             <Badge key={tech} variant="secondary" className="rounded-full">
@@ -59,16 +59,6 @@ const ExperienceItem = ({
 const Experience = () => {
   const experiences = [
     {
-      title: "Desarrollador de Fullstack",
-      company: "Facultad de Ciencias del Mar · UCN",
-      period: "Ago 2025 – Actualidad",
-      description:
-        "Rol fullstack en el desarrollo de una plataforma de reservas de laboratorios y control de materiales. Apoyo en frontend con React/Next.js y desarrollo de APIs en Node.js + TypeScript.",
-      technologies: ["React", "Next.js", "Node.js", "TypeScript", "PostgreSQL"],
-      achievement:
-        "Plataforma de gestión para toda la facultad, con impacto en múltiples laboratorios.",
-    },
-    {
       title: "Fundador & Consultor Tecnológico",
       company: "Cutback · Agencia Digital",
       period: "Jun 2025 – Actualidad",
@@ -77,6 +67,35 @@ const Experience = () => {
       technologies: ["Next.js", "TypeScript", "Vercel", "Cloudflare"],
       achievement:
         "Creación de agencia con 3 clientes activos, integrando soluciones tecnológicas y de negocio.",
+    },
+    {
+      title: "Desarrollador Fullstack",
+      company: "AuditE (SaaS de diagnóstico energético)",
+      period: "Ago 2025 – Nov 2025",
+      description:
+        "Rol fullstack en el desarrollo, configuración y despliegue del proyecto AuditE. Implementación del backend con FastAPI, base de datos PostgreSQL en Docker y migraciones con Alembic. Preparación del frontend en React, habilitación de HTTPS local, automatización del entorno con Makefile y configuración de webhooks hacia Discord para monitoreo del repositorio. Participación en el fortalecimiento del MVP técnico y su entorno de desarrollo.",
+      technologies: [
+        "FastAPI",
+        "Python",
+        "React",
+        "Docker",
+        "PostgreSQL",
+        "Alembic",
+        "Nginx",
+        "GitHub Webhooks"
+      ],
+      achievement:
+        "Entorno de desarrollo completo y estable para AuditE, con backend, frontend y base de datos integrados, permitiendo avanzar el MVP y habilitar futuras mejoras del SaaS."
+    },
+    {
+      title: "Desarrollador de Fullstack",
+      company: "Facultad de Ciencias del Mar · UCN",
+      period: "Ago 2025 – Nov 2025",
+      description:
+        "Rol fullstack en el desarrollo de una plataforma de reservas de laboratorios y control de materiales. Apoyo en frontend con React/Next.js y desarrollo de APIs en Node.js + TypeScript.",
+      technologies: ["React", "Next.js", "Node.js", "TypeScript", "PostgreSQL"],
+      achievement:
+        "Plataforma de gestión para toda la facultad, con impacto en múltiples laboratorios.",
     },
     {
       title: "Desarrollador de Software",
