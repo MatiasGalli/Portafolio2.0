@@ -71,7 +71,7 @@ const Experience = () => {
     {
       title: "Desarrollador Fullstack",
       company: "AuditE (SaaS de diagnóstico energético)",
-      period: "Ago 2025 – Nov 2025",
+      period: "Sep 2025 – Nov 2025",
       description:
         "Rol fullstack en el desarrollo, configuración y despliegue del proyecto AuditE. Implementación del backend con FastAPI, base de datos PostgreSQL en Docker y migraciones con Alembic. Preparación del frontend en React, habilitación de HTTPS local, automatización del entorno con Makefile y configuración de webhooks hacia Discord para monitoreo del repositorio. Participación en el fortalecimiento del MVP técnico y su entorno de desarrollo.",
       technologies: [
